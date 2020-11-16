@@ -5,7 +5,7 @@ using UnityEngine;
 public class playerMovement : MonoBehaviour
 {
     private CharacterController cc;
-    public float speed = 30;
+    public float speed = 5;
 
     private Vector3 velocity;
 
