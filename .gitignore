@@ -85,3 +85,6 @@ crashlytics-build.properties
 *.png binary
 *.jpg binary
 Escape/Temp/UnityLockfile
+Escape/Library/ArtifactDB
+Escape/Library/ArtifactDB
+Escape/Library/ArtifactDB
