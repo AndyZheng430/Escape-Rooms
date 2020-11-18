@@ -6,19 +6,18 @@ public class playerMovement : MonoBehaviour
 {
     private CharacterController cc;
     public float speed = 5;
-
     private Vector3 velocity;
-
     public float gravity = -9.81f*2;
     public Transform GroundCheck;
     public float groundDistance = 0.5f;
     public LayerMask groundMask;
-
+    public Animator anim;
     bool isGrounded;
     // Start is called before the first frame update
     void Start()
     {
         cc = this.GetComponent<CharacterController>();
+        anim = this.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -32,6 +31,9 @@ public class playerMovement : MonoBehaviour
 
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
+        
+        anim.SetFloat("vertical_speed", z);
+        anim.SetFloat("horizontal_speed", x);
 
         Vector3 move = transform.right * x + transform.forward * z;
         
@@ -40,5 +42,6 @@ public class playerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         cc.Move(velocity * Time.deltaTime);
+        
     }
 }
