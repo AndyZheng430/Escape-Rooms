@@ -7,6 +7,7 @@ public class PickUpObjects : MonoBehaviour
     public Rigidbody rb;
     public MeshCollider coll;
     public Transform player, handCon;
+    public Animator playerAnim;
     
     public float pickUpDistance;
     public float dropForwardForce, dropUpwardForce;
@@ -14,6 +15,10 @@ public class PickUpObjects : MonoBehaviour
     public bool isEquip;
     public static bool slotFull;
 
+    void Start()
+    {
+        playerAnim = player.GetComponent<Animator>();
+    }
     // Update is called once per frame
     void Update()
     {
@@ -34,6 +39,8 @@ public class PickUpObjects : MonoBehaviour
 
         rb.isKinematic = true;
         coll.isTrigger = true;
+
+        playerAnim.SetBool("hasItem", true);
     }
 
     private void Drop()
@@ -46,5 +53,6 @@ public class PickUpObjects : MonoBehaviour
         rb.isKinematic = false;
         coll.isTrigger = false;
         
+        playerAnim.SetBool("hasItem", false);
     }
 }
