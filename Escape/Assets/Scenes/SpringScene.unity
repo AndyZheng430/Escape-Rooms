@@ -1051,18 +1051,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
-<<<<<<< HEAD
---- !u!1 &922620514 stripped
-=======
 --- !u!1 &912991043 stripped
->>>>>>> 803b9d168d8d6e6d6cb78bf3637745acc6ea156d
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2963874564340935427, guid: db2abdee375c9a24993e1e98f5554e86,
     type: 3}
   m_PrefabInstance: {fileID: 1046402947}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!65 &912991044
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1142,7 +1136,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> 803b9d168d8d6e6d6cb78bf3637745acc6ea156d
 --- !u!4 &926545704 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2479825993056596409, guid: db2abdee375c9a24993e1e98f5554e86,
