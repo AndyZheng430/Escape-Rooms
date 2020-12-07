@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/SpringScene.unity
+=======
+- path: Assets/Scenes/GameOverScene.unity
+>>>>>>> 803b9d168d8d6e6d6cb78bf3637745acc6ea156d
   isLoaded: 1
   isActive: 1
   isSubScene: 0
