@@ -1,0 +1,3 @@
+[submodule "Escape/Escape/Assets/NavMeshComponents"]
+	path = Escape/Escape/Assets/NavMeshComponents
+	url = https://github.com/Unity-Technologies/NavMeshComponents
