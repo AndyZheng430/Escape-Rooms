@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - tomb
+  - Enemy
+  - medal
+  - flower
+  - doll
+  - toy
   layers:
   - Default
   - TransparentFX
@@ -14,7 +20,7 @@ TagManager:
   - 
   - 
   - ground
-  - 
+  - player
   - 
   - 
   - 
