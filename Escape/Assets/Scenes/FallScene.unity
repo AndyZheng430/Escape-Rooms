@@ -4895,6 +4895,16 @@ PrefabInstance:
 
         is come."'
       objectReference: {fileID: 0}
+    - target: {fileID: 5678779864997101105, guid: 535ee207dfdad7e4aa2b849a2bf25205,
+        type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5678779864997101105, guid: 535ee207dfdad7e4aa2b849a2bf25205,
+        type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5678779864997101107, guid: 535ee207dfdad7e4aa2b849a2bf25205,
         type: 3}
       propertyPath: m_TagString
@@ -6010,7 +6020,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 2
+  m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
 --- !u!65 &622217436
@@ -6043,7 +6053,7 @@ MonoBehaviour:
   player: {fileID: 1985537052}
   handCon: {fileID: 1844220780}
   playerAnim: {fileID: 0}
-  pickUpDistance: 5
+  pickUpDistance: 2
   dropForwardForce: 0
   dropUpwardForce: 0
   isEquip: 0
@@ -6809,6 +6819,16 @@ PrefabInstance:
 
         "Loved to spread
         happiness with her dolls."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5678779864997101105, guid: 535ee207dfdad7e4aa2b849a2bf25205,
+        type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5678779864997101105, guid: 535ee207dfdad7e4aa2b849a2bf25205,
+        type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5678779866153184364, guid: 535ee207dfdad7e4aa2b849a2bf25205,
         type: 3}
@@ -7582,7 +7602,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 2
+  m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
 --- !u!114 &818240406
@@ -7602,7 +7622,7 @@ MonoBehaviour:
   player: {fileID: 1985537052}
   handCon: {fileID: 1844220780}
   playerAnim: {fileID: 0}
-  pickUpDistance: 5
+  pickUpDistance: 2
   dropForwardForce: 0
   dropUpwardForce: 0
   isEquip: 0
@@ -9269,6 +9289,16 @@ PrefabInstance:
         Honor, Country,
 
         well done, be thou at peace."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5678779864997101105, guid: 535ee207dfdad7e4aa2b849a2bf25205,
+        type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5678779864997101105, guid: 535ee207dfdad7e4aa2b849a2bf25205,
+        type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5678779866153184364, guid: 535ee207dfdad7e4aa2b849a2bf25205,
         type: 3}
@@ -14704,7 +14734,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 47712df2226454546bca713499fb2531,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30.2
+      value: 30.914
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 47712df2226454546bca713499fb2531,
         type: 3}
@@ -14780,6 +14810,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: toy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 47712df2226454546bca713499fb2531,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47712df2226454546bca713499fb2531, type: 3}
@@ -16403,6 +16438,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: tomb
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b6b7c2b432ad234409d70af6c190402a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6b7c2b432ad234409d70af6c190402a, type: 3}
@@ -18643,7 +18683,7 @@ MonoBehaviour:
   player: {fileID: 1985537052}
   handCon: {fileID: 1844220780}
   playerAnim: {fileID: 0}
-  pickUpDistance: 5
+  pickUpDistance: 2
   dropForwardForce: 0
   dropUpwardForce: 0
   isEquip: 0
@@ -18673,7 +18713,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 2
+  m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
 --- !u!1 &1836764719
