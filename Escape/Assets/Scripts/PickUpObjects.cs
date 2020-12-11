@@ -14,6 +14,7 @@ public class PickUpObjects : MonoBehaviour
 
     public bool isEquip;
     public static bool slotFull;
+    public Vector3 ItemPosition, ItemRotation, ItemSize;
 
     void Start()
     {
@@ -33,9 +34,9 @@ public class PickUpObjects : MonoBehaviour
         slotFull = true;
 
         transform.SetParent(handCon);
-        transform.localPosition = new Vector3(-0.00164f, 0.00107f, 0.00039f);
-        transform.localRotation = Quaternion.Euler(new Vector3(-6.231f, -90f, 90f));
-        transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
+        transform.localPosition = ItemPosition;
+        transform.localRotation = Quaternion.Euler(ItemRotation);
+        transform.localScale = ItemSize;
 
         rb.isKinematic = true;
         coll.isTrigger = true;

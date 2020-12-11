@@ -27,15 +27,10 @@ public class TombstoneCheck : MonoBehaviour
             reaper.GetComponent<EnemyAI>().trigger = true;
         }
     }
-    // private void OnTriggerExit(Collider other) {
-    //     if (other.CompareTag(belongingTag))
-    //     {
-    //         reaper.GetComponent<EnemyAI>().trigger = false;
-    //         atPeace = false;
-    //     }
-    //     if (other.CompareTag("Player") && !atPeace)
-    //     {
-    //         reaper.GetComponent<EnemyAI>().trigger = true;
-    //     }
-    // }
+    private void OnTriggerExit(Collider other) {
+        if (other.CompareTag("Player"))
+        {
+            reaper.GetComponent<EnemyAI>().trigger = false;
+        }
+    }
 }
