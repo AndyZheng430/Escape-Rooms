@@ -17,7 +17,7 @@ public class TombstoneCheck : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (other.CompareTag(belongingTag))
+        if (other.tag == belongingTag)
         {
             reaper.GetComponent<EnemyAI>().trigger = false;
             atPeace = true;
